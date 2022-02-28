@@ -22,15 +22,6 @@ Book.all.each do |book|
     Review.create(text: all_reviews.sample, book_id: book.id)
 end
 
-# Review.create(text: "This play is as relevant today as it was in 1959, and more relevant to American students than Shakespeare may ever be.", book_id: Book.id)
-# Review.create(text: "I did not like this book at all. All the drug, booze, swearing was just too much for me to overlook. Perhaps there is an element of society that lives this kind of life, but I really didn't enjoy reading about it.", book_id: Book.id)
-# Review.create(text: "French girls farther is a museum custodian and the jewel now resides behind 13 locked doors like Russian dolls. Guess the girl and soldier meet up … could not take any more.", book_id: Book.id)
-# Review.create(text: "Every story in this collection is a gem. ", book_id: Book.id)
-# Review.create(text: "Boring... ", book_id: Book.id)
-# Review.create(text: "I dont need to feel ashamed for how Im not “woke enough” these days. I get enough of that on Twitter.", book_id: Book.id)
-# Review.create(text: "I bought this because it was required reading for my English class.", book_id: Book.id)
-# Review.create(text: "I enjoyed this novel very much because it rang true about life in general during this period and because it was so well written.", book_id: Book.id)
-# Review.create(text: "This is a fantastic edition to own, and I'm glad to have it. 5 stars for the book.", book_id: Book.id)
-# Review.create(text: " I came to a conclusion that there's simply nothing else like it, and it tops my list.", book_id: Book.id)
+
 
 puts "✅ Done seeding!"
